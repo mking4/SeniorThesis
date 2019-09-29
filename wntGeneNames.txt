@@ -1,0 +1,188 @@
+hsa:4088: smad3, hspc193, hst17436, jv15-2, lds1c, lds3, madh3
+hsa:4772: nfatc1, nf-atc, nf-atc1.2, nfat2, nfatc
+hsa:4773: nfatc2, nfat1, nfatp
+hsa:4775: nfatc3, nfat4, nfatx
+hsa:4776: nfatc4, nf-at3, nf-atc4, nfat3
+hsa:5578: prkca, aag6, pkc-alpha, pkca, pkci+/-, pkcalpha, prkaca
+hsa:5579: prkcb, pkc-beta, pkcb, pkci(2), pkcbeta, prkcb1, prkcb2
+hsa:5582: prkcg, pkc-gamma, pkcc, pkcg, pkci(3), pkcgamma, sca14
+hsa:5530: ppp3ca, caln, calna, calna1, ccn1, cna1, iecee, iecee1, ppp2b
+hsa:5532: ppp3cb, calna2, calnb, cna2, pp2bbeta
+hsa:5533: ppp3cc, calna3, cna3, pp2bgamma
+hsa:5534: ppp3r1, calnb1, cnb, cnb1
+hsa:5535: ppp3r2, ppp3rl
+hsa:815: camk2a, camka, camkiinalpha, mrd53, mrt63
+hsa:816: camk2b, cam2, camk2, camkb, mrd54
+hsa:817: camk2d, camkd
+hsa:818: camk2g, camk, camk-ii, camkg
+hsa:23236: plcb1, eiee12, pi-plc, plc-154, plc-i, plc-beta-1, plc154, plcb1a, plcb1b
+hsa:5330: plcb2, plc-beta-2
+hsa:5331: plcb3
+hsa:5332: plcb4, arcnd2, pi-plc
+hsa:11211: fzd10, cd350, fz-10, fz10, fze7, hfz10
+hsa:2535: fzd2, fz2, fz-2, fze2, hfz2
+hsa:7855: fzd5, c2orf31, hfz5
+hsa:7976: fzd3, fz-3
+hsa:8321: fzd1
+hsa:8322: fzd4, cd344, evr1, fevr, fzd4s, fz-4, fz4, fze4, gpcr, hfz4
+hsa:8323: fzd6, fz-6, fz6, hfz6, ndnc10
+hsa:8324: fzd7, fze3
+hsa:8325: fzd8, fz-8, hfz8
+hsa:8326: fzd9, cd349, fzd3
+hsa:7474: wnt5a, hwnt5a
+hsa:81029: wnt5b
+hsa:5599: mapk8, jnk, jnk-46, jnk1, jnk1a2, jnk21b1/2, prkm8, sapk1, sapk1c
+hsa:5601: mapk9, jnk-55, jnk2, jnk2a, jnk2alpha, jnk2b, jnk2beta, prkm9, sapk, sapk1a, p54a, p54asapk
+hsa:5602: mapk10, jnk3, jnk3a, prkm10, sapk1b, p493f12, p54bsapk
+hsa:5879: rac1, mig5, mrd48, rac-1, tc-25, p21-rac1
+hsa:5880: rac2, en-7, gx, hspc022, p21-rac2
+hsa:5881: rac3
+hsa:9475: rock2, rock-ii
+hsa:387: rhoa, arh12, arha, rho12, rhoh12
+hsa:23002: daam1
+hsa:23500: daam2, dj90a20a.1
+hsa:1855: dvl1, drs2, dvl, dvl1l1, dvl1p1
+hsa:1856: dvl2
+hsa:1857: dvl3, drs3
+hsa:144165: prickle1, epm1b, rilp
+hsa:166336: prickle2, epm5
+hsa:29964: prickle4, c6orf49, obtp, oebt, tomm6
+hsa:4007: prickle3, lmo6, pk3
+hsa:2239: gpc4, k-glypican
+hsa:11211: fzd10, cd350, fz-10, fz10, fze7, hfz10
+hsa:2535: fzd2, fz2, fz-2, fze2, hfz2
+hsa:7855: fzd5, c2orf31, hfz5
+hsa:7976: fzd3, fz-3
+hsa:8321: fzd1
+hsa:8322: fzd4, cd344, evr1, fevr, fzd4s, fz-4, fz4, fze4, gpcr, hfz4
+hsa:8323: fzd6, fz-6, fz6, hfz6, ndnc10
+hsa:8324: fzd7, fze3
+hsa:8325: fzd8, fz-8, hfz8
+hsa:8326: fzd9, cd349, fzd3
+hsa:57216: vangl2, lpp1, ltap, stb1, stbm, stbm1
+hsa:81839: vangl1, kitenin, lpp2, stb2, stbm2
+hsa:7481: wnt11, hwnt11
+hsa:4316: mmp7, mmp-7, mpsl1, pump-1
+hsa:5467: ppard, faar, nr1c2, nuc1, nuci, nucii, pparb
+hsa:595: ccnd1, bcl1, d11s287e, prad1, u21b31
+hsa:894: ccnd2, kiak0002, mpph3
+hsa:896: ccnd3
+hsa:8061: fosl1, fra, fra1, fra-1
+hsa:3725: jun, ap-1, ap1, c-jun, p39
+hsa:4609: myc, mrtl, mycc, bhlhe39, c-myc
+hsa:1487: ctbp1, bars, haddts
+hsa:1488: ctbp2
+hsa:64321: sox17, vur3
+hsa:4089: smad4, dpc4, jip, madh4, myhrs
+hsa:51176: lef1, lef-1, tcf10, tcf1alpha, tcf7l3
+hsa:6932: tcf7, tcf-1
+hsa:6934: tcf7l2, tcf-4, tcf4
+hsa:83439: tcf7l1, tcf-3, tcf3
+hsa:1387: crebbp, cbp, kat3a, rsts, rsts1
+hsa:2033: ep300, kat3b, rsts2, p300
+hsa:8607: ruvbl1, ecp-54, ecp54, ino80h, nmp_238, nmp238, pontin, pontin52, rvb1, tih1, tip49, tip49a
+hsa:57680: chd8, auts18, helsnf1
+hsa:56998: ctnnbip1, icat
+hsa:51701: nlk
+hsa:6885: map3k7, cscf, fmd2, mekk7, tak1, tgf1a
+hsa:122011: csnk1a1l, ck1
+hsa:1452: csnk1a1, ck1, ck1a, ckia, hel-s-77p, hlcdgp1, pro2975
+hsa:9978: rbx1, ba554c12.1, rnf75, roc1
+hsa:8454: cul1
+hsa:6500: skp1, emc19, ocp-ii, ocp2, skp1a, tceb1l, p19a
+hsa:23291: fbxw11, btrc2, btrcp2, fbw1b, fbxw1b, fbw11, hos
+hsa:8945: btrc, beta-trcp, fbw1a, fbxw1, fbxw1a, fwd1, btrcp, btrcp1, betatrcp
+hsa:6907: tbl1x, ebi, smap55, tbl1
+hsa:79718: tbl1xr1, c21, dc42, ira1, mrd41, tblr1
+hsa:90665: tbl1y, tbl1
+hsa:6500: skp1, emc19, ocp-ii, ocp2, skp1a, tceb1l, p19a
+hsa:27101: cacybp, gig5, pnas-107, s100a6bp, sip
+hsa:10297: apc2, apcl
+hsa:324: apc, btps2, dp2, dp2.5, dp3, gs, ppp1r46
+hsa:6477: siah1, siah1a
+hsa:85407: nkd1, naked1
+hsa:85409: nkd2, naked2
+hsa:7157: tp53, bcc7, bmfs5, lfs1, p53, trp53
+hsa:8312: axin1, axin, ppp1r49
+hsa:8313: axin2, axil, odcrcs
+hsa:10297: apc2, apcl
+hsa:324: apc, btps2, dp2, dp2.5, dp3, gs, ppp1r46
+hsa:1499: ctnnb1, ctnnb, evr7, mrd19, armadillo
+hsa:5566: prkaca, pkaca, ppnad4
+hsa:5567: prkacb, pka_c-beta, pkacb
+hsa:5568: prkacg, bdplt19, kapg, pkacg
+hsa:5663: psen1, acninv3, ad3, fad, ps-1, ps1, s182
+hsa:2932: gsk3b
+hsa:10023: frat1
+hsa:23401: frat2, frat-2
+hsa:59343: senp2, axam2, smt3ip2
+hsa:1855: dvl1, drs2, dvl, dvl1l1, dvl1p1
+hsa:1856: dvl2
+hsa:1857: dvl3, drs3
+hsa:1457: csnk2a1, ck2a1, ckii, cka1, cka2, ocnds
+hsa:1459: csnk2a2, ck2a2, ck2alpha', csnk2a1
+hsa:1460: csnk2b, ck2b, ck2n, csk2b, ckb1, ckb2, g5a
+hsa:283106: csnk2a3, csnk2a1p
+hsa:80319: cxxc4, idax
+hsa:102800317: tptep2-csnk1e, loc400927-csnk1e
+hsa:1454: csnk1e, ckie, ckiepsilon, hckie
+hsa:22943: dkk1, dkk-1, sk
+hsa:27121: dkk4, dkk-4
+hsa:27123: dkk2, dkk-2
+hsa:11197: wif1, wif-1
+hsa:9350: cer1, dand4
+hsa:4040: lrp6, adcad2, sthag7
+hsa:4041: lrp5, bmnd1, evr1, evr4, hbm, lr3, lrp-5, lrp-7, lrp7, oppg, ops, opta1, pcld4, vbch2
+hsa:11211: fzd10, cd350, fz-10, fz10, fze7, hfz10
+hsa:2535: fzd2, fz2, fz-2, fze2, hfz2
+hsa:7855: fzd5, c2orf31, hfz5
+hsa:7976: fzd3, fz-3
+hsa:8321: fzd1
+hsa:8322: fzd4, cd344, evr1, fevr, fzd4s, fz-4, fz4, fze4, gpcr, hfz4
+hsa:8323: fzd6, fz-6, fz6, hfz6, ndnc10
+hsa:8324: fzd7, fze3
+hsa:8325: fzd8, fz-8, hfz8
+hsa:8326: fzd9, cd349, fzd3
+hsa:6422: sfrp1, frp, frp-1, frp1, frza, sarp2
+hsa:6423: sfrp2, frp-2, sarp1, sdf-5
+hsa:6424: sfrp4, frp-4, frphe, frzb-2, pyl, sfrp-4
+hsa:6425: sfrp5, sarp3
+hsa:64840: porcn, dhof, fodh, mg61, porc, ppn
+hsa:51384: wnt16
+hsa:54361: wnt4, serkal, wnt-4
+hsa:7471: wnt1, bmnd16, int1, oi15
+hsa:7472: wnt2, int1l1, irp
+hsa:7473: wnt3, int4, tetams
+hsa:7474: wnt5a, hwnt5a
+hsa:7475: wnt6
+hsa:7476: wnt7a
+hsa:7477: wnt7b
+hsa:7478: wnt8a, wnt8d
+hsa:7479: wnt8b
+hsa:7480: wnt10b, shfm6, sthag8, wnt-12
+hsa:7481: wnt11, hwnt11
+hsa:7482: wnt2b, wnt13
+hsa:7483: wnt9a, wnt14
+hsa:7484: wnt9b, wnt14b, wnt15
+hsa:80326: wnt10a, oodd, ssps, sthag4
+hsa:81029: wnt5b
+hsa:89780: wnt3a
+hsa:25805: bambi, nma
+hsa:50964: sost, cdd, dand6, sost1, vbch
+hsa:5176: serpinf1, epc-1, oi12, oi6, pedf, pig35
+hsa:27130: invs, inv, nph2, nphp2
+hsa:147111: notum, hnotum
+hsa:8840: ccn4, wisp1, wisp1-ot1, wisp1-ut1, wisp1c, wisp1i, wisp1tc
+hsa:4919: ror1, ntrkr1, dj537f10.1
+hsa:4920: ror2, bdb, bdb1, ntrkr2
+hsa:6259: ryk, d3s3195, jtk5, jtk5a, ryk1
+hsa:6259: ryk, d3s3195, jtk5, jtk5a, ryk1
+hsa:54894: rnf43, rnf124, sspcs, urcc
+hsa:84133: znrf3, bk747e2.3, rnf203
+hsa:55366: lgr4, bnmd17, gpr48
+hsa:59352: lgr6, gpcr, vts20631
+hsa:8549: lgr5, fex, gpr49, gpr67, grp49, hg38
+hsa:284654: rspo1, cristin3, rspo
+hsa:340419: rspo2, cristin2, hhrrd, tetams2
+hsa:343637: rspo4, c20orf182, cristin4
+hsa:84870: rspo3, cristin1, pwtsr, thsd2
