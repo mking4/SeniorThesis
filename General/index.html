@@ -1,0 +1,50 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="https://unpkg.com/force-graph"></script>
+  <!--<script src="../../dist/force-graph.js"></script>-->
+</head>
+
+<body>
+  <div id="graph"></div>
+
+  <script>
+ 
+    const NODE_R = 8;
+    let highlightNodes = [];
+    let highlightLink = null;
+
+    fetch('miserables.json').then(res => res.json()).then(data => {
+      const Graph = ForceGraph()
+      (document.getElementById('graph'))
+        .graphData(data)
+        .nodeRelSize(NODE_R)
+        .onNodeHover(node => {
+          highlightNodes = node ? [node] : [];
+          
+	})
+        .onLinkHover(link => {
+          highlightLink = link;
+          highlightNodes = link ? [link.source, link.target] : [];
+        })
+	.nodeId('id')
+        .nodeVal('val')
+        .nodeLabel('id')
+        .nodeColor(node => node.group == 0 ? 'rgba(187, 226, 252, 0.75)' : node.group < 15 ? 'rgba(127, 201, 250, 1)' : node.group < 50 ? 'rgba(0, 150, 250, 1)' : 'rgba(3, 79, 161, 1)')
+        .linkSource('source')
+        .linkTarget('target')
+	.linkDirectionalParticles("value")
+        .linkWidth(link => link.value * link.value * 10)
+        .linkColor(link => link == highlightLink ? 'rgba(255,0,0,1)' : 'rgba(' + (1-link.value) * 255  + ',255,0,0.5)')
+        .linkDirectionalParticleSpeed(d => d.value * 0.01)
+        .nodeCanvasObjectMode(node => highlightNodes.indexOf(node) !== -1 ? 'before' : undefined)
+        .nodeCanvasObject((node, ctx) => {
+          // add ring just for highlighted nodes
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, NODE_R * 1.4, 0, 2 * Math.PI, false);
+          ctx.fillStyle = 'red';
+          ctx.fill();
+        });
+    });
+  </script>
+</body>

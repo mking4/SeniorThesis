@@ -1,0 +1,52 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="https://unpkg.com/force-graph"></script>
+  <!--<script src="../../dist/force-graph.js"></script>-->
+</head>
+
+
+<body>
+  <div id="graph"></div>
+
+  <script>
+
+    const NODE_R = 8;
+    let highlightNodes = [];
+    let highlightLink = null;
+
+    fetch('miserables.json').then(res => res.json()).then(data => {
+      const Graph = ForceGraph()
+      (document.getElementById('graph'))
+        .graphData(data)
+        .nodeId('id')
+        .onNodeHover(node => {
+          highlightNodes = node ? [node] : [];
+
+        })
+        .onLinkHover(link => {
+          highlightLink = link;
+          highlightNodes = link ? [link.source, link.target] : [];
+        })
+        .linkDirectionalParticles("value")
+        .linkWidth(link => link.value * link.value * 10)
+        .linkColor(link => link == highlightLink ? 'rgba(255,0,0,1)' : 'rgba(' + (1-link.value) * 255  + ',255,0,0.5)')
+        .linkDirectionalParticleSpeed(d => d.value * 0.01)
+	.nodeCanvasObject((node, ctx, globalScale) => {
+          const label = node.id;
+          const fontSize = 12/globalScale;
+          ctx.font = `${fontSize}px Sans-Serif`;
+          const textWidth = ctx.measureText(label).width;
+          const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2); // some padding
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+          ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+	  // The Fill Style is determined first by whether or not it is highlighted (red or blue). If not highlighted, the color is darker if there are more instances
+	  // of the gene in the dataset
+          ctx.fillStyle = highlightNodes.indexOf(node) !== -1 ? 'rgba(255,0,0,1)' : node.group == 0 ? 'rgba(187, 226, 252, 0.5)' : node.group < 10 ? 'rgba(127, 201, 250, 0.9)' : node.group < 20 ? 'rgba(0, 150, 250, 0.9)' : 'rgba(3, 79, 161, 1)'; 
+          ctx.fillText(label, node.x, node.y);
+        });
+    });
+  </script>
+</body>
